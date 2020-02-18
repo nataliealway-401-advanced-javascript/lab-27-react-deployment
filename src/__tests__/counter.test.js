@@ -16,18 +16,18 @@ describe("< Counter />", () => {
 
   it("count should decrement number when clicked", () => {
     const app = mount(<Counter />);
-    const downA = app.find(".down");
+    const decrement = app.find(".down");
 
-    downA.simulate("click");
+    decrement.simulate("click");
     expect(app.state().polarity).toEqual("negative");
     expect(app.find(".count").text()).toEqual("-1");
   });
 
   it("count should increment number when clicked", () => {
     const app = mount(<Counter />);
-    const downA = app.find(".up");
+    const increment = app.find(".up");
 
-    downA.simulate("click");
+    increment.simulate("click");
     expect(app.state().polarity).toEqual("positive");
     expect(app.find(".count").text()).toEqual("1");
   });
