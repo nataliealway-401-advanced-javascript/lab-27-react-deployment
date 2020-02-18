@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`< Counter /> matches snapshot 1`] = `
+<section
+  className="counter"
+>
+  <span
+    className="down clicker"
+    onClick={[Function]}
+  >
+     
+    -
+     
+  </span>
+  <span
+    className="count "
+  >
+    0
+  </span>
+  <span
+    className="up clicker"
+    onClick={[Function]}
+  >
+     
+    +
+     
+  </span>
+</section>
+`;
