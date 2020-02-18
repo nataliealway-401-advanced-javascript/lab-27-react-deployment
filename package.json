@@ -7,6 +7,7 @@
   "dependencies": {
     "enzyme": "latest",
     "enzyme-adapter-react-16": "1.14.0",
+    "node-sass": "^4.13.1",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-jsonschema-form": "1.8.0",
@@ -30,5 +31,17 @@
   "bugs": {
     "url": "https://github.com/nataliealway-401-advanced-javascript/lab-27-react-deployment/issues"
   },
-  "homepage": "https://github.com/nataliealway-401-advanced-javascript/lab-27-react-deployment#readme"
+  "homepage": "https://github.com/nataliealway-401-advanced-javascript/lab-27-react-deployment#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
